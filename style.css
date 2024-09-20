@@ -7,9 +7,9 @@ body {
     transition: background-color 0.3s, color 0.3s;
 }
 
-.dark-mode {
-    background-color: #181818;
-    color: #f0f0f0;
+.mode {
+    background-color: #000;
+    color: #fff;
 }
 
 /* Landing Page */
@@ -18,8 +18,8 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #000;
-    color: #fff;
+    background-color: #181818;
+    color: #f0f0f0;
     text-align: center;
     flex-direction: column;
 }
@@ -144,7 +144,7 @@ button:hover {
     transition: background-color 0.3s, color 0.3s;
 }
 
-.dark-mode .modal-content {
+.mode .modal-content {
     background-color: #333;
     color: #f0f0f0;
 }
@@ -182,7 +182,7 @@ button:hover {
     transition: background-color 0.3s, color 0.3s;
 }
 
-.dark-mode .note-card {
+mode .note-card {
     background-color: #333;
     border-color: #444;
 }
